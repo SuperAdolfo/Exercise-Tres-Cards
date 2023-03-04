@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+}
+
+a {
+    font-size: 14px;
+    margin: 0px 20px auto 20px;
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+
+span {
+    color: rgb(94, 94, 94);
+    float: right;
+    position: relative;
+    right: 13px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    border: 1px solid peru;
+    justify-content: space-around;
+}
+
+.container div {
+    border: 1px solid black;
+    width: 221px;
+    height: 120px;
+}
+
+img {
+    width: 48px;
+    padding: 13px;
+    float: left;
+}
+
+ 
